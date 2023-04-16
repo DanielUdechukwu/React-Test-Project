@@ -29,11 +29,15 @@ body {
   display: flex;
   align-items: center;
   gap: .8rem;
-  color: #5fd2f2;
+  color: #61DAFB;
 }
 
 .logo {
   animation:spin 6s linear infinite;
+}
+
+.header-content {
+  color: #DEEBF8;
 }
 
 .main-content {
@@ -55,6 +59,11 @@ body {
   font-size: 1.3rem;
   padding: .5rem 0;
   font-weight: 600;
+}
+
+.lists li::marker{
+  font-size: 2rem;
+  color: #61DAFB;
 }
 
 @media (max-width: 600px) {
