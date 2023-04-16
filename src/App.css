@@ -32,6 +32,10 @@ body {
   color: #5fd2f2;
 }
 
+.logo {
+  animation:spin 4s linear infinite;
+}
+
 .main-content {
   width: 80%;
   margin: 0 auto;
@@ -75,4 +79,11 @@ body {
   .project-title {
     margin: 1.5rem 0 1rem 3.4rem;
   }
+}
+
+@keyframes spin { 
+  100% { 
+    -webkit-transform: rotate(360deg); 
+    transform:rotate(360deg); 
+  } 
 }
