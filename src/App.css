@@ -41,8 +41,13 @@ body {
 }
 
 .main-content {
-  width: 80%;
+  /* width: 80%; */
+  padding: 0 10%;
   margin: 0 auto;
+  background-image: url('./assets/Group.svg');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 13rem;
 }
 
 .content-header {
@@ -74,7 +79,8 @@ body {
     font-size: 1.2rem;
   }
   .main-content {
-    width: 90%;
+    width: 100%;
+    padding: 0 2rem;
   }
   .content-header {
     font-size: 3rem;
